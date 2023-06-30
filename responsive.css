@@ -1,0 +1,43 @@
+@media screen and (min-width: 1440px){
+    .box {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        width: 600px;
+        height: 450px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    .box > .photo {
+        background-image: url(./assets/second.jpg);
+        height: 450px;
+        background-position: center;
+        border-radius: 10px 0px 0px 10px;
+    }
+    .child {
+        margin-left: 25px;
+        width: 300px;
+    }
+    button {
+        width: 236px;
+        height: 48px;
+        margin-top: 25px;
+
+
+    }
+    h1 {
+        margin-left: 0;
+    }
+    h5 {
+        margin-left: 0;
+    }
+    .info > p {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    h2 {
+        text-align: start;
+    }
+
+}
